@@ -1,0 +1,198 @@
+*
+{
+	margin: 0;
+	height: 0;
+}
+body
+{
+	background-color: #999999;
+}
+.Stage
+{
+	width: 80%;
+	min-width: 1200px;
+	height: 700px;
+	margin: 0px auto;
+	position: relative;
+	top: 100px;
+}
+.mid:before
+{
+	content: '';
+	transform:rotate(-2deg);
+	width: 600px;
+	height: 560px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: #fff;
+	background-attachment: fixed;
+	z-index: 3;
+	box-shadow: 0px 35px 10px #333333;
+}
+.mid
+{
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	top: 0px;
+	border-radius: 20px;
+	z-index: 40;
+}
+.mid:after
+{
+	content: '';
+	transform:rotate(2deg);
+	width:600px;
+	height: 560px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: #fff;
+	background-attachment: fixed;
+	z-index: 2;
+	box-shadow: 0px 35px 10px #333333;
+}
+.mid_cont
+{
+	width: 100%;
+	height: 600px;
+	background-color: #fff;
+	position: absolute;
+	top: 0px;
+	z-index: 4;
+	font-size: 120px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Bernard MT Condensed;
+	overflow: hidden;
+	
+	
+}
+.cursor
+{
+	cursor: crosshair;
+}
+.Center
+{
+	line-height: 600px;
+}
+.mid_cont span
+{
+	color: #fff;
+	text-shadow: 0px 0px 20px #333333 ;
+	transition: all ease 1s;
+}
+.mid_cont span:hover
+{
+	color: #666666;
+	text-shadow: 0px 0px 500px #333333 ;
+
+}
+
+
+.nightColor
+{
+	background-color:#191970;
+}
+.star
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	background-color: #666666;
+	box-shadow: 10px 0px 10px #999999 inset;
+	position: relative;
+	top: -100px;
+	float: left;
+	z-index: 888;
+}
+
+.gamestage
+{
+	margin: 0 auto;
+	width: 1200px;
+	height: 600px;
+	overflow: hidden;
+}
+
+.Spacecraft
+{
+	width: 50px;
+	height: 50px;
+	background-image: url('../img/spc5.png');
+	background-position: center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 999;
+}
+.Console
+{
+	width: 180px;
+	height: 900px;
+	position: fixed;
+	top: 20px;
+	left: 0px;
+	background-color: #fff;
+	z-index: 999;
+	box-shadow: 0px 0px 20px #333333;
+	display: none;
+}
+.Console div
+{
+	width: 100%;
+	height: 50px; 
+}
+.Score
+{
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	line-height: 600px;
+}
+.CrazyM
+{
+	width: 100%;
+	height: 130px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top: 0px;
+	background-color: #DC143C;
+	line-height: 130px;
+	display: none;
+	font-size: 60px;
+
+}
+.RankTop
+{
+	width: 100%;
+	height: 100px;
+	color: #DC143C;
+	font-size: 80px;
+}
+.RankList
+{
+	width: 100%;
+	height: 100px;
+	background-color: #DC143C;
+	color: #fff;
+	line-height: 100px;
+	font-size: 30px;
+
+}
+.reward
+{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 0px;
+	left: -60px;
+	transition: left linear 2s;
+	background-image: url('../img/reward.png');
+	background-size: 60px;
+	z-index: 998;
+}
